@@ -1,13 +1,21 @@
 class Company{
-    constructor(companyName, yearFounded, country){
+    constructor(
+            companyName, 
+            yearFounded, 
+            country,  
+            numberOfEmployees,
+            description,
+            ownership){
         this.companyName = companyName;
         this.yearFounded = yearFounded;
         this.country = country;
-        this.isSubsidiary = false;
-        this.subsidieries = [];
-        this.numberOfEmployees = null;
+        this.numberOfEmployees = numberOfEmployees;
         this.teams = [];
+        this.description = description;
+        this.ownership = ownership;
     }
 }
 
 export {Company}
+
+

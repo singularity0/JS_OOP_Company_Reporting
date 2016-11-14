@@ -1,0 +1,40 @@
+@media (min-width: 250px){
+        table {
+            border: 3px solid red;
+        }
+    }
+
+@media (min-width:350px){
+    button {
+        display : block;
+        margin : 5px;
+    }
+}
+
+button {
+    background-color: orange;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+ul, li {
+    list-style-type:square;
+    /*list-style:none;*/
+}
+
+.blink_me {
+  animation: blinker 2s linear infinite;
+}
+
+@keyframes blinker {  
+  50% { opacity: 0; }
+}
+
+#result {
+    color : royalblue;
+}
+
+
